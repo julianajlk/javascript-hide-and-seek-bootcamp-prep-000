@@ -19,6 +19,7 @@ function inscreaseRankBy(n) {
   for (let i = 0; i < secondChildren.length; i++) {
     secondChildren[i].innerHTML = parseInt(secondChildren[i].innerHTML) + n;
   }
+  return rankedLists
 };
 
 function deepestChild() {
