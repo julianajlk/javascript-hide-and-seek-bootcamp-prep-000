@@ -11,6 +11,8 @@ function inscreaseRankBy(n) {
  const rankedLists = document.getElementById().querySelectorAll('.ranked-list');
  const firstList = rankedLists[0]
  const secondList = rankedLists[1]
+ let children = firstList.children
+ let secondChildren = secondList.children
   for (let i = 0; i < list.length; i++) {
     rankedLists[i].innerHTML = parseInt(rankedLists[i].innerHTML) + n;
   }
