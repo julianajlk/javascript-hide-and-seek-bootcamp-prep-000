@@ -7,7 +7,13 @@ function nestedTarget() {
 };
 
 function inscreaseRankBy(n) {
-  
+  const rankedLists = document.querySelectorAll('.ranked-list');
+ for (let i = 0; i < rankedLists.length; i++) {
+   var children = rankedLists[i].children;
+   for (let l = 0; l < children.length; l++) {
+     children[l].innerHTML = parseInt(children[l].innerHTML) + n;
+   }
+ }
 };
 
 function deepestChild() {
