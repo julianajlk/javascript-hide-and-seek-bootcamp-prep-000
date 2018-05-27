@@ -9,11 +9,11 @@ function nestedTarget() {
 
 function inscreaseRankBy(n) {
  const rankedLists = document.querySelectorAll('.ranked-list');
- let children = rankedLists[i].childre
+ let children = rankedLists[i].children
   for (let i = 0; i < rankedLists.length; i++) {
     children[i].innerHTML = parseInt(children[i].innerHTML) + n;
   }
-  for (let i = 0; i < secondChildren.length; i++) {
+  for (let i = 0; i < children.length; i++) {
     secondChildren[i].innerHTML = parseInt(secondChildren[i].innerHTML) + n;
   }
 };
