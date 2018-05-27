@@ -18,6 +18,7 @@ firstListChildren[i].innerHTML = parseInt(firstListChildren[i].innerHTML) + n;
     for (let i = 0; i < secondListChildren.length; i++) {
 secondListChildren[i].innerHTML = parseInt(secondListChildren[i].innerHTML) + n;
 }
+  return test;
 };
 
 function deepestChild() {
